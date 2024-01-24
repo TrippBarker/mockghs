@@ -1,0 +1,101 @@
+:root {
+    --green: #92d500;
+    --pale-green: #91d5007b;
+    --dark-green: #93d500;
+    --pale-blue: #d7ecf9;
+    --blue: #4169E1;
+    --dark-blue: #165a91;
+}
+
+* {
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+    color: var(--dark-blue);
+}
+
+h3 {
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+header {
+    color: var(--blue);
+    font-weight: 900;
+    background-color: var(--green);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+    width: 90%;
+}
+
+.card {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border-radius: 4em .5em 4em .5em;
+    box-shadow: -1em -1em var(--pale-green);
+    padding: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: var(--pale-blue);
+    border: .25rem solid var(--dark-blue);
+}
+
+#profileimg {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+#profileimg img {
+    border-radius: 1em;
+    height: 15rem;
+    width: 15rem;
+}
+
+#preferredcard {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+#preferredlist {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: var(--dark-green);
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 1em;
+    border-radius: .5em;
+}
