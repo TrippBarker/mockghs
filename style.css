@@ -7,6 +7,15 @@
     --darkblue: #165a91;
 }
 
+a {
+    text-decoration: none;
+    color: var(--darkblue);
+}
+
+a:hover {
+    color: var(--blue);
+}
+
 * {
     font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
@@ -94,6 +103,39 @@ section {
     justify-content: space-evenly;
 }
 
+#projectscard {
+    display: flex;
+    flex-direction: column;
+    min-height: 40rem;
+    max-height: 40rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.projectcard {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 1rem;
+    border: .25rem solid var(--darkblue);
+    border-radius: 2rem .5rem;
+}
+
+.projectdets {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projectimg {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 1.5rem .25rem .25rem .25rem;
+    margin-right: 1rem;
+}
+
 button {
     text-decoration: none;
     border: none;
@@ -103,4 +145,30 @@ button {
     color: #ffffff;
     padding: 1em;
     border-radius: .5rem;
+}
+
+button:hover {
+    background-color: var(--palegreen);
+    cursor: pointer;
+}
+
+#projects ::-webkit-scrollbar {
+    width: 1rem;
+}
+
+#projects  ::-webkit-scrollbar-track {
+    background: var(--paleblue);
+    border-radius: 1rem;
+    height: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+   
+#projects ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: var(--blue);
+}
+
+#projects ::-webkit-scrollbar-thumb:hover {
+    background: var(--darkblue);
 }
