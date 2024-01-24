@@ -1,10 +1,10 @@
 :root {
     --green: #92d500;
-    --pale-green: #91d5007b;
-    --dark-green: #93d500;
-    --pale-blue: #d7ecf9;
+    --palegreen: #91d5007b;
+    --darkgreen: #93d500;
+    --paleblue: #d7ecf9;
     --blue: #4169E1;
-    --dark-blue: #165a91;
+    --darkblue: #165a91;
 }
 
 * {
@@ -21,12 +21,12 @@ h1 {
 
 h2 {
     font-size: 32px;
-    color: var(--dark-blue);
+    color: var(--darkblue);
 }
 
 h3 {
     font-size: 24px;
-    color: var(--dark-blue);
+    color: var(--darkblue);
 }
 
 header {
@@ -54,14 +54,14 @@ section {
     margin-right: 1em;
     margin-bottom: 1em;
     border-radius: 4rem .5rem 4rem .5rem;
-    box-shadow: -1em -1em var(--pale-green);
+    box-shadow: -1em -1em var(--palegreen);
     padding: 2em;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: var(--pale-blue);
-    border: .25rem solid var(--dark-blue);
+    background-color: var(--paleblue);
+    border: .25rem solid var(--darkblue);
 }
 
 #profileimg {
