@@ -45,17 +45,17 @@ section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 1em;
+    padding: 1rem;
     width: 90%;
 }
 
 .card {
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
     border-radius: 4rem .5rem 4rem .5rem;
-    box-shadow: -1em -1em var(--palegreen);
-    padding: 2em;
+    box-shadow: -1rem -1rem var(--palegreen);
+    padding: 2rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -97,10 +97,10 @@ section {
 button {
     text-decoration: none;
     border: none;
-    background-color: var(--dark-green);
+    background-color: var(--darkgreen);
     font-size: 24px;
     font-weight: 800;
     color: #ffffff;
     padding: 1em;
-    border-radius: .5em;
+    border-radius: .5rem;
 }
