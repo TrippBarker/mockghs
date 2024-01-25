@@ -1,7 +1,7 @@
 :root {
     --green: #92d500;
-    --palegreen: #91d5007b;
-    --darkgreen: #93d500;
+    --palegreen: #cce694;
+    --darkgreen: #476702;
     --paleblue: #d7ecf9;
     --blue: #4169E1;
     --darkblue: #165a91;
@@ -20,8 +20,10 @@ a:hover {
     font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
-body {
+html, body {
+    padding: 0;
     margin: 0;
+    height: 100vh;
 }
 
 h1 {
@@ -44,10 +46,15 @@ header {
     background-color: var(--green);
 }
 
+header h1 {
+    margin-top: 0;
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 }
 
 section {
@@ -122,6 +129,10 @@ section {
     border-radius: 2rem .5rem;
 }
 
+.projectcard:hover {
+    background-color: var(--palegreen);
+}
+
 .projectdets {
     display: flex;
     flex-direction: column;
@@ -139,7 +150,7 @@ section {
 button {
     text-decoration: none;
     border: none;
-    background-color: var(--darkgreen);
+    background-color: var(--green);
     font-size: 24px;
     font-weight: 800;
     color: #ffffff;
@@ -150,6 +161,7 @@ button {
 button:hover {
     background-color: var(--palegreen);
     cursor: pointer;
+    color: #ffffff;
 }
 
 #projects ::-webkit-scrollbar {
